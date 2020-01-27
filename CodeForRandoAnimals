@@ -1,0 +1,39 @@
+import java.util.Arrays;
+
+public class practice {
+
+	public static void main(String[] args) {
+		String[] strng1 = new String[6];
+		String[] strng2 = new String[4];
+		String[] strng3 = new String[10];
+		int[] num1 = new int[100];
+		int[] num2 = new int[36];
+		
+
+		strng1[0] = "Tiger";	//i filled in the first spot value of my first string as Tiger
+		strng1[1] = "Lion";		//i filled in the second spot value of my first string as Tiger
+		strng1[2] = "Bear";		//i filled in the third spot value of my first string as Tiger
+		strng1[3] = "Elephant";		//i filled in the fourth spot value of my first string as Tiger
+		strng1[4] = "Monkey";		//i filled in the fifth spot value of my first string as Tiger
+		strng1[5] = "Silver Back Gorilla";		//i filled in the sixth spot value of my first string as Tiger
+		
+			//System.out.print("Did you know about these types of animals? " + strng1[0] + " " + strng1[1] + " " + strng1[2] + " " + strng1[3] + " " + strng1[4] + " and " + strng1[5]);
+		
+		for(int i = 0;i< num1.length; i++) {
+			num1[i] = i+1;
+			
+		}
+		for(int i = 0;i< num2.length; i++) {
+			num2[i] = i+1;
+		}
+		for(int i = 0;i< strng2.length; i++)
+			strng3[0] = "North";
+			strng3[1] = "South";
+			strng3[2] = "East";
+			strng3[3] = "West";
+			
+			
+		System.out.println(Arrays.deepToString(strng2));
+	}
+
+}
